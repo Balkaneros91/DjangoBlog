@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 from django.contrib.messages import constants as messages
 import dj_database_url
-if os.path.isfile('env.py'):
+if os.path.isfile("env.py"):
     import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['balkaneros-django-blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-balkaneros91-djangoblog-yld2kvx5dh.us2.codeanyapp.com', 'localhost']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
